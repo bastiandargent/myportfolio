@@ -1,0 +1,110 @@
+{% include "header.html" %}
+<!--- Section 1: Home Page and Call to Action --->
+  <div style="background-color: var(--main)">
+  <div style="max-width: 1600px; margin: 0 auto !important; float: none !important;">
+  <div class="homepage">
+  <div class="homepage_container">
+    <div class="homepage_left">
+      <div class="homepage_text_cont">
+        <h1>Bastian d'Argent</h1>
+        <div class="homepage_text">
+          <p>Hello! Welcome to my portfolio. I recently graduated with my M.S. in Geographic Information Science and I enjoy all things <b>GIS</b>, <b>remote sensing</b>, and <b>earth science</b>. This portfolio features my professional work and experiences.</p>
+        </div>
+        <div class="button_buffer">
+               <a class="button" href="documents/Caroline_Williams_Resume.pdf">Download Resume - PDF</a>
+             </div>
+      </div>
+    </div>
+    <div class="homepage_right">
+        <img src="static/styles/images/web_image_background-small.jpg" class="homepage_image">
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+  <!-- Section 2: Project Highlight -->
+  <div style="background-color: var(--alternative)">
+  <div style="max-width: 1600px; margin: 0 auto !important; float: none !important;">
+  <div class="grid_background_col">
+    <div class="grid_title_txt">
+    <h1>LATEST WORK</h1>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+      <div class="highlight_cont">
+        <div class="highlight-left">
+          <div class="highlight-text">
+          <h1 class="highlight-title">NASA Pop-Up Projects</h1>
+          <h3 class="highlight-subtitle" style="font-weight:normal;"><i>Projects I managed in the NASA DEVELOP program as the Fellow for the Pop-Up Project (PUP) Office</p></i></h3><br>
+          <p class="highlight-maintext">Through my recent role as Fellow for NASA DEVELOP's Pop-Up Project Locations, I oversaw projects across the United States appling Earth observations to real-world issues. Projects include: UHEAT Urban Development, Mexico Disasters, Maipo River Valley Agriculture, Chesapeake Bay Water Resources, Shoshone River Water Resources I & II, Southeast US Climate, InVEST Urban Development, Kankakee Water Resources, and New York Ecological Conservation.
+          </div>
+        </div>
+        <div class="highlight-right">
+        <img src="images/2022Spring_PUP_UHEATUrban_WebsiteImage_crop.png" class="highlight-image">
+        </div>
+      </div>
+      </div>
+      <div class="mySlides fade">
+      <div class="highlight_cont">
+        <div class="numbertext">2 / 4</div>
+        <div class="highlight-left">
+          <div class="highlight-text">
+          <h1 class="highlight-title">NASA ARSET Training</h1>
+          <h3 class="highlight-subtitle" style="font-weight:normal;"><i>Monitoring and Modeling Floods using Earth Observations</p></i></h3><br>
+          <p class="highlight-maintext">In this NASA Applied Remote Sensing Training (ARSET) webinar, I contributed as a guest speaker providing a case study example of utilizing NASA SERVIR's HYDRAFloods tool in Python to detect flooding. Citation: (2022). ARSET - Monitoring and Modeling Floods using Earth Observations. NASA Applied Remote Sensing Training Program (ARSET).
+          </div>
+        </div>
+        <div class="highlight-right">
+        <img src="images/ARSET_Monitoring_Floods_Training.jpg" class="highlight-image">
+        <div class="highlight-bottom-right-txt">Image Credit: NASA ARSET</div>
+        </div>
+      </div>
+      </div>
+    <div class="mySlides fade">
+    <div class="highlight_cont">
+      <div class="numbertext">3 / 4</div>
+      <div class="highlight-left">
+        <div class="highlight-text">
+        <h1 class="highlight-title">Central America Disasters</h1>
+        <h3 class="highlight-subtitle" style="font-weight:normal;"><i>Using Earth Observations to Map Flooding for Disaster Monitoring, Inform Potential Risk, and Prepare for Possible Response</i></h3><br>
+        <p class="highlight-maintext">This NASA DEVELOP Fall 2021 project, generated flood extent maps for Hurricanes Eta and Iota, produced hsitorical surface water maps, and examined precipitation trends during the two case study events. This analysis was conducted using NASA SERVIR's HYDRAFloods tool using Google Colab and the Google Earth Engine Python API.</p>
+        </div>
+      </div>
+      <div class="highlight-right">
+      <img src="images/2021Fall_MSFC_CentralAmericaDisasters_WebsiteImage_mycopy.jpg" class="highlight-image">
+      <div class="highlight-bottom-right-txt">Image Credit: NASA DEVELOP</div>
+      </div>
+    </div>
+    </div>
+    <div class="mySlides fade">
+    <div class="highlight_cont">
+    <div class="numbertext">4 / 4</div>
+      <div class="highlight-left">
+        <div class="highlight-text">
+        <h1 class="highlight-title">Argentina Agriculture</h1>
+        <h3 class="highlight-subtitle" style="font-weight:normal;"><i>Crop Monitoring and Forecasting for Argentina using NASA Satellite Observations</i></h3><br>
+        <p class="highlight-maintext">This NASA DEVELOP Summer 2021 project, utilized the Google Earth Engine JavaScript API to create a crop monitoring forecasting tool in Argentina. These scripts utilize Terra MODIS NDVI imagery to forecast NDVI from weeks to several months. This forecasted NDVI is then used to calculate predicted crop yield for the area of interest. Supplementary to the forecasting model, the tool also looks at climate and environmental trends in the study area like soil moisture, temperature, and precipitation.</p>
+        </div>
+      </div>
+      <div class="highlight-right">
+      <img src="images/2021Sum_GSFC_ArgentinaAg_WebsiteImage.jpg" class="highlight-image">
+      <div class="highlight-bottom-right-txt">Image Credit: NASA DEVELOP</div>
+    </div>
+    </div>
+    </div>
+      <div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+{% include "footer.html" %}

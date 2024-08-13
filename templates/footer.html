@@ -1,0 +1,18 @@
+<!--- Footer --->
+<div class="top_footer">
+
+    <div class="button_buffer">
+               <a class="button" style="font-size: 24px; font-family: 'Montserrat', sans-serif;" href="{{ url_for('contact') }}">Contact Me</a>
+             </div>
+    <a href="https://www.linkedin.com/in/bastian-d-argent/"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/bastiandargent"><i class="fa fa-github"></i></a>
+</div>
+<div class="bottom_footer">
+    <p><small>&copy; Copyright <span id="current-year"></span>, Bastian d'Argent</small></p>
+</div>
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+<script src="static/scripts/slider.js"></script>
+</body>
+</html>
